@@ -50,7 +50,6 @@
 				<version>1.1.1</version>
 				<configuration>
 					<dockerDirectory>src/main/docker</dockerDirectory>
-					<repository>${docker.image.prefix}/${project.artifactId}</repository>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 					<buildArgs>
 						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
